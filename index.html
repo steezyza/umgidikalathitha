@@ -257,7 +257,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center">
-                        <form id="rsvp-form" method="POST" action="https://script.google.com/macros/s/AKfycbw2VJlqUc6dbEW5_m-d0l_sp5Bn8KArYTAPfvbgENOLMDFizTYYci4B_kG4jYfSY7-u_A/exec">
+                        <form id="rsvp-form" action="https://api.sheetmonkey.io/form/dmAkU7cp7swNM9jwdSBrAQ" method="post">
                             <div class="form-row">
                                 <div class="form-group col-sm-6">
                                     <input name="name" type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name"/>
@@ -288,6 +288,7 @@
                             <div class="form-group">
                                 <textarea name="message" class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message"></textarea>
                             </div>
+                            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
                             <div>
                                 <button class="btn font-weight-bold py-3 px-5" style="color: #80330A;border-color: #80330A;" type="submit">SUMBIT</button>
                             </div>
