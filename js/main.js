@@ -127,7 +127,7 @@
             alert("Success!");
           })
         });
-      });
+    });
       
     
 })(jQuery);
