@@ -257,35 +257,36 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center">
-                        <form>
+                        <form method="POST" action="https://script.google.com/macros/s/AKfycbw2VJlqUc6dbEW5_m-d0l_sp5Bn8KArYTAPfvbgENOLMDFizTYYci4B_kG4jYfSY7-u_A/exec">
                             <div class="form-row">
                                 <div class="form-group col-sm-6">
-                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name"/>
+                                    <input name="name" type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name"/>
                                 </div>
                                 <div class="form-group col-sm-6">
-                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Email"/>
+                                    <input name="number" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Number"/>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
-                                        <option>Number of Guest</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                    <select name="rsvp" required="required" class="form-control bg-secondary border-0" style="height: 52px">
+                                        <option>RSVP</option>
+                                        <option value="I'm attending">I'm Attending</option>
+                                        <option value="I'm Not Attention">I'm Not Attending</option>
+                                        <option value="I'm Not Sure">I'm Not Sure</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px">
-                                        <option>I'm Attending</option>
-                                        <option>I'm Not Attending</option>
-                                        <option>I May Be Attending</option>
+                                    <select name="guest" required="required" class="form-control bg-secondary border-0" style="height: 52px;">
+                                        <option>Number of Guest</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message" required="required"></textarea>
+                                <textarea name="message" class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message"></textarea>
                             </div>
                             <div>
                                 <button class="btn font-weight-bold py-3 px-5" style="color: #80330A;border-color: #80330A;" type="submit">SUMBIT</button>
