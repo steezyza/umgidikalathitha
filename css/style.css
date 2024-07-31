@@ -6263,6 +6263,33 @@ a.close.disabled {
   text-align: center;
 }
 
+.day, .hour, .minute, .second {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #FFFFFF00;
+  border-radius: 5px;
+  border-width: 20px;
+  background-color: #FFFFFF00;
+}
+
+.countdown h3 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.countdown {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: row; 
+}
+
+
 @keyframes spinner-border {
   to {
     transform: rotate(360deg);
