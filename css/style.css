@@ -7805,6 +7805,7 @@ button.bg-dark:focus {
 
 .p-3 {
   padding: 1rem !important;
+  margin-bottom: 260px;
 }
 
 .pt-3,
