@@ -68,8 +68,8 @@ body {
   .greetings {
     text-align: center;
     font-weight: 400;
-    padding: 25px;
-    margin: 25px;
+    padding: 25px 25px 0px 25px;
+    margin: 25px 25px 0px 25px;
   }
 
 
