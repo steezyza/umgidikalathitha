@@ -64,6 +64,15 @@ body {
   background-color: #FFFFFF;
 }
 
+/*--Greetings Styles--*/
+  .greetings {
+    text-align: center;
+    font-weight: 400;
+    padding: 25px;
+    margin: 25px;
+  }
+
+
 /*--Button Styles--*/
 .btn-slice {
   margin-top: 10px;
@@ -7716,16 +7725,6 @@ button.bg-dark:focus {
   margin-top: 3rem !important;
 }
 
-.mr-5,
-.mx-5 {
-  margin-right: 3rem !important;
-}
-
-.mb-5,
-.my-5 {
-  margin-bottom: 3rem !important;
-}
-
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -7865,11 +7864,11 @@ button.bg-dark:focus {
 .px-5 {
   padding-right: 3rem !important;
 }
-
+/* 
 .pb-5,
 .py-5 {
   padding-bottom: 3rem !important;
-}
+} */
 
 .pl-5,
 .px-5 {
